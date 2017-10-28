@@ -1,0 +1,170 @@
+body {
+  margin: 0px;
+  background-color: rgb(240, 240, 240);
+}
+
+.top {
+  background-image: url("http://source.unsplash.com/OGj-lUI9TBQ/1600x900");
+}
+
+.header {
+  width: 100%;
+  margin: 0px;
+  /*background-color: #7406a3;*/
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header li {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+.header ul {
+  margin: 0px;
+  padding: 20px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-family: Helvetica, Sans-Serif;
+}
+
+.title {
+  width: 100%;
+  margin: 0px;
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.title h1 {
+  margin: 0px;
+  padding: 30px;
+  font-size: 100px;
+}
+
+.title h3 {
+  margin: 0px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.text-bubble {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(50, 50, 50);
+  background-color: white;
+  width: 40%;
+  padding: 10px;
+  border: 1px lightgray solid;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.text-bubble p {
+  margin: 0px;
+}
+
+.projects {
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+  color: rgb(50, 50, 50);
+  font-family: 'Roboto', sans-serif;
+}
+
+.projects h3 {
+  font-size: 30px;
+}
+
+.project-item {
+  width: 30%;
+  margin: 5px;
+  border-bottom: 1px lightgray solid;
+  display: inline-block;
+}
+
+.project-item img {
+  width: 100%;
+}
+
+.experience {
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+  color: rgb(50, 50, 50);
+  font-family: 'Roboto', sans-serif;
+}
+
+.experience h3 {
+  font-size: 30px;
+}
+
+.job-item {
+  width: 30%;
+  margin: 5px;
+  border-bottom: 1px lightgray solid;
+  display: inline-block;
+}
+
+.job-item img {
+  width: 100%;
+}
+
+.contact {
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+  color: rgb(50, 50, 50);
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 50px;
+}
+
+.contact h3 {
+  font-size: 30px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  margin: 5px;
+  border: 1px rgb(50, 50, 50) solid;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.contact a:hover {
+  color: white;
+  background-color: rgb(50, 50, 50);
+}
+
+footer {
+  border-top: 1px lightgray solid;
+  background-color: white;
+}
+
+footer a {
+  float: right;
+  padding: 10px;
+  color: lightblue;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+  padding: 10px;
+  display: inline-block;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
