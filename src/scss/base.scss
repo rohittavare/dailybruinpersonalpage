@@ -1,0 +1,150 @@
+$default-font: 'Roboto', sans-serif;
+$default-border: 1px lightgray solid;
+$white: rgb(255, 255, 255);
+$gray: rgb(50, 50, 50);
+
+body {
+  margin: 0px;
+  background-color: rgb(240, 240, 240);
+}
+
+.top {
+  background-image: url("http://source.unsplash.com/OGj-lUI9TBQ/1600x900");
+}
+
+.header {
+  width: 100%;
+  margin: 0px;
+  /*background-color: #7406a3;*/
+  background-color: rgba(0, 0, 0, 0.5);
+
+  li {
+    display: inline-block;
+    padding: 10px;
+    color: $white;
+    font-family: Helvetica, sans-serif;
+  }
+
+  ul {
+    margin: 0px;
+    padding: 20px;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+    font-family: Helvetica, Sans-Serif;
+  }
+}
+
+.title {
+  width: 100%;
+  margin: 0px;
+  background-size: cover;
+  color: $white;
+  font-family: $default-font;
+  text-align: center;
+
+  h1 {
+    margin: 0px;
+    padding: 30px;
+    font-size: 100px;
+  }
+
+  h3 {
+    margin: 0px;
+    padding: 20px;
+    font-size: 30px;
+  }
+}
+
+.text-bubble {
+  font-family: $default-font;
+  color: $gray;
+  background-color: white;
+  width: 40%;
+  padding: 10px;
+  border: $default-border;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  p {
+    margin: 0px;
+  }
+}
+
+.card-list {
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+  color: $gray;
+  font-family: $default-font;
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .card {
+    width: 30%;
+    margin: 5px;
+    border-bottom: $default-border;
+    display: inline-block;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.contact {
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+  color: $gray;
+  font-family: $default-font;
+  margin-bottom: 50px;
+
+  h3 {
+    font-size: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $gray;
+    font-family: $default-font;
+    padding: 10px;
+    margin: 5px;
+    border: 1px $gray solid;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  a:hover {
+    color: white;
+    background-color: $gray;
+  }
+}
+
+footer {
+
+  border-top: $default-border;
+  background-color: white;
+
+  a {
+    float: right;
+    padding: 10px;
+    color: lightblue;
+    text-decoration: none;
+    display: inline-block;
+    font-family: $default-font;
+  }
+
+  p {
+    padding: 10px;
+    display: inline-block;
+    margin: 0px;
+    font-family: $default-font;
+  }
+}

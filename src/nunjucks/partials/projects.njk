@@ -1,0 +1,16 @@
+<div class="card-list" id="proj">
+        <h3>Projects</h3>
+        {% set projs = [{ title: "Iron Man", img: "http://rohittavare.github.io/ironman.png", desc: "Iron Man 3D Modeling project on 3DS Max. Heavy use of metallic materials, polygon modification, lighting effects", bold: ""},
+        { title: "Savior", img: "http://rohittavare.github.io/savior.png", desc: "An alert based criminal inhibition platform that helps victims of physical violence and promotes community safety.", bold: "Winner of CU Hacks2" },
+        { title: "Succinct", img: "http://rohittavare.github.io/succinct.png", desc: "A novel algorithm that converts a picture into a summary, flash cards, editable notes and provides sources to study.", bold: "" },
+        { title: "Tino Astronomy", img: "http://rohittavare.github.io/astro.png", desc: "Self created website for the Astronomy Club. Developed using Firebase announcement backend.", bold: "" },
+        { title: "Dico", img: "http://rohittavare.github.io/Dico.png", desc: "An app for simplistic and dynamic messages, based on user needs.", bold: "" },
+        { title: "Woxi", img: "http://rohittavare.github.io/woxi.png", desc: "A cognitive voicemail assistant. Built with Node JS, Facebook Graph, and Android", bold: "Devpost Staff Pick" }] %}
+        {% for proj in projs %}
+          <div class="card">
+            <img src="{{proj.img}}" alt="project picture">
+            <p><b>{{proj.title}}</b></p>
+            <p>{{proj.desc}} <b>{{proj.bold}}</b></p>
+          </div>
+        {% endfor %}
+      </div>

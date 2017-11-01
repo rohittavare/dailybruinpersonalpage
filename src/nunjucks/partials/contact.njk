@@ -1,0 +1,9 @@
+<div class="contact" id="contact">
+        <h3>Contact Me</h3>
+        {% set btns = [{name: "Email"},
+        {name: "Linked In"},
+        {name: "Github"}]%}
+        {% for btn in btns %}
+          <a href="#">{{btn.name}}</a>
+        {% endfor %}
+      </div>
